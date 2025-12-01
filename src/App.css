@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+}
+
+.page-content {
+  padding: 2rem;
+}
+
+.page-content h1 {
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.page-content p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.empty-state {
+  background: white;
+  border-radius: 8px;
+  padding: 3rem;
+  text-align: center;
+  color: #999;
+}

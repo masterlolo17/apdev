@@ -1,0 +1,128 @@
+.analytics-page {
+  padding: 2rem;
+}
+
+.analytics-header {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.analytics-header h1 {
+  margin: 0 0 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.analytics-header p {
+  margin: 0;
+  color: #666;
+}
+
+.empty-state {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #999;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.analytics-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.analytics-card h3 {
+  margin: 0 0 1.5rem 0;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+}
+
+.analytics-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wage-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wage-stat:last-child {
+  border-bottom: none;
+}
+
+.wage-stat .label {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.wage-stat .value {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.experience-stat {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.experience-stat .label {
+  min-width: 100px;
+  color: #718096;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.bar-container {
+  flex: 1;
+  height: 24px;
+  background: #f5f7fa;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-width: 2px;
+  transition: width 0.3s ease;
+}
+
+.experience-stat .count {
+  min-width: 30px;
+  text-align: right;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.analytics-content p {
+  margin: 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  color: #2d3748;
+}
+
+.analytics-content p:last-child {
+  border-bottom: none;
+}
+
+.analytics-content p strong {
+  color: #667eea;
+}

@@ -1,0 +1,118 @@
+.applicants-page {
+  padding: 2rem;
+}
+
+.applicants-header {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.applicants-header h1 {
+  margin: 0 0 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.applicants-header p {
+  margin: 0;
+  color: #666;
+}
+
+.empty-applicants {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #999;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.applicants-table-container {
+  background: white;
+  border-radius: 12px;
+  overflow-x: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.applicants-table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.applicants-table thead {
+  background: #f5f7fa;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.applicants-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.applicants-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background 0.2s ease;
+}
+
+.applicants-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.applicants-table td {
+  padding: 1rem;
+  color: #2d3748;
+}
+
+.name-cell {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.center {
+  text-align: center;
+}
+
+.wage-cell {
+  font-weight: 600;
+  color: #667eea;
+  font-size: 1.05rem;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  background: #e6f0ff;
+  color: #667eea;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.skill-tag.more {
+  background: #f5f7fa;
+  color: #718096;
+}
+
+.confidence-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.35rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
